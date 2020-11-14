@@ -1,0 +1,21 @@
+{
+    "name": "wzzwx/yii2-dingtalk-robot",
+    "type": "yii2-extension",
+    "description": "dingtalk robot",
+    "keywords": ["yii2", "dingtalk", "robot"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wangzheng",
+            "email": "wz152309246@163.com"
+        }
+    ],
+    "require": {
+        "wangju/ding-notice": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "wzzwx\\yii2DingtalkRobot\\": "src/"
+        }
+    }
+}
